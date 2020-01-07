@@ -47,6 +47,9 @@ dependencies {
     // Facebook Android SDK (only required for Facebook Login)
     // Used in FacebookLoginActivity.
     implementation 'com.facebook.android:facebook-login:4.42.0'
+
+    //keyboard
+    implementation 'net.yslibrary.keyboardvisibilityevent:keyboardvisibilityevent:2.3.0'
 }
 apply plugin: 'com.google.gms.google-services'
 

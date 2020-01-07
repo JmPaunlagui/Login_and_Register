@@ -1,20 +1,29 @@
 package com.jomo.myapplicationloginandregister;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.graphics.Color;
 import android.os.Bundle;
+import android.view.View;
 import android.view.WindowManager;
+import android.view.textclassifier.TextClassifierEvent;
 
-public class MainActivity extends AppCompatActivity {
+import androidx.appcompat.app.AppCompatActivity;
+
+public class MainActivity extends AppCompatActivity implements View.OnClickListener {
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        //For translucent status bar
-        getWindow().setFlags(WindowManager.LayoutParams.FLAG_LAYOUT_NO_LIMITS, WindowManager.LayoutParams.FLAG_LAYOUT_NO_LIMITS);
-        getWindow().setStatusBarColor(Color.TRANSPARENT);
+        findViewById(R.id.signupScreen).setOnClickListener(null);
+
     }
+
+    @Override
+    public void onClick(View v) {
+        //iTouch da screen
+
+    }
+
 }
