@@ -8,4 +8,7 @@
     <string name="username">Username</string>
     <string name="sign_up">Sign up</string>
     <string name="password">Password</string>
+    <string name="logg">Login</string>
+    <string name="logintitle">Login</string>
+
 </resources>
